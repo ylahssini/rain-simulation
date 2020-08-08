@@ -6,19 +6,16 @@ export class RainDrop {
     ySpeed: number;
     width: number;
     height: number;
-    color: number;
 
     constructor(p5: p5Types) {
         this.p5 = p5;
 
-        const y = this.p5.random(-200, -200);
+        const y = this.p5.random(-500, -50);
         this.position = this.p5.createVector(this.p5.random(this.p5.windowWidth), y);
         this.ySpeed = this.p5.random(3, 9);
 
         this.width = this.p5.random(1, 1.5);
         this.height = this.p5.random(10, 30);
-
-        this.color = this.p5.random(0, 255);
     }
 
     fall() {
