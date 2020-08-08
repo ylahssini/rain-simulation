@@ -6,8 +6,6 @@ import { RainDrop } from './Particles';
 const drops = new Array(600);
 
 const Rain = (): React.ReactElement => {
-
-
     function setup(p5: p5Types, elementCanvas: Element): void {
         p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(elementCanvas);
         

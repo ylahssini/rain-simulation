@@ -1,3 +1,6 @@
+# Rain simulation with React + p5
+This is a simple simulation of rain using React and p5. I like to create effects and animation and i'm enjoyed to do it.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

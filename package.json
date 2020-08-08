@@ -1,5 +1,6 @@
 {
   "name": "react-rain-p5",
+  "author": "Youssef Lahssini",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
