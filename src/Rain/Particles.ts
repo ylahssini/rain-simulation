@@ -1,5 +1,12 @@
 import p5Types from 'p5';
 
+interface DropInterface {
+    fall: () => void;
+    show: () => void;
+}
+
+export const drops: DropInterface[] = [];
+
 export class RainDrop {
     p5: p5Types;
     position: any;
@@ -25,6 +32,8 @@ export class RainDrop {
         if (this.position.y > this.p5.windowHeight) {
             this.position.y = this.p5.random(-150, -200);
             this.ySpeed = this.p5.random(3, 9);
+
+            drops.splice(drops.indexOf(this), 1);
         }
     }
 
