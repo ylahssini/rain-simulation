@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rain simulation",
+  "name": "Rain simulation with React & p5.js created by Youssef Lahssini",
   "icons": [
     {
       "src": "favicon.ico",
